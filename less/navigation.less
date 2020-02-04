@@ -1,0 +1,44 @@
+header {
+    .title {
+        font-size: 6rem;
+        color:blue;
+        width: 100%;
+        text-align: center;
+        
+       
+
+    }
+    .nav_logo {
+    // .display_style(row, center);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .logo {
+        width: 5%;
+        justify-content: flex-start
+    }//close logo
+
+    .navbar {
+        //.display_style(row, flex-end);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        a {
+            font-size: 2rem;
+            padding: 2rem;
+            border: 1px solid blue;
+            margin: 0 10px;
+            border-radius: 20px;
+
+            &:hover{
+                color: blue;
+                background-color: violet;
+            }
+        }//close a
+    }//close navbar
+
+    
+    }
+    
+}
